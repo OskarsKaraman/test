@@ -1,0 +1,940 @@
+@font-face {
+  font-family: 'Futura PT Bold';
+  src: url('../fonts/futura_pt_bold.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/futura_pt_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/futura_pt_bold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/futura_pt_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/futura_pt_bold.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/futura_pt_bold.svg#futura_pt_bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Futura PT Bold Oblique';
+  src: url('../fonts/futura_pt_bold_oblique.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/futura_pt_bold_oblique.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/futura_pt_bold_oblique.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/futura_pt_bold_oblique.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/futura_pt_bold_oblique.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/futura_pt_bold_oblique.svg#futura_pt_bold_oblique') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Futura PT Book';
+  src: url('../fonts/futura_pt_book.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/futura_pt_book.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/futura_pt_book.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/futura_pt_book.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/futura_pt_book.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/futura_pt_book.svg#futura_pt_book') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Futura PT Book Oblique';
+  src: url('../fonts/futura_pt_book_oblique.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/futura_pt_book_oblique.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/futura_pt_book_oblique.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/futura_pt_book_oblique.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/futura_pt_book_oblique.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/futura_pt_book_oblique.svg#futura_pt_book_oblique') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Futura PT Cond Bold';
+  src: url('../fonts/futura_pt_cond_bold.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/futura_pt_cond_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/futura_pt_cond_bold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/futura_pt_cond_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/futura_pt_cond_bold.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/futura_pt_cond_bold.svg#futura_pt_cond_bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Futura PT Cond Bold Oblique';
+  src: url('../fonts/futura_pt_cond_bold_oblique.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/futura_pt_cond_bold_oblique.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/futura_pt_cond_bold_oblique.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/futura_pt_cond_bold_oblique.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/futura_pt_cond_bold_oblique.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/futura_pt_cond_bold_oblique.svg#futura_pt_cond_bold_oblique') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Futura PT Cond Book';
+  src: url('../fonts/futura_pt_cond_book.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/futura_pt_cond_book.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/futura_pt_cond_book.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/futura_pt_cond_book.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/futura_pt_cond_book.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/futura_pt_cond_book.svg#futura_pt_cond_book') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Futura PT Cond Book Oblique';
+  src: url('../fonts/futura_pt_cond_book_oblique.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/futura_pt_cond_book_oblique.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/futura_pt_cond_book_oblique.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/futura_pt_cond_book_oblique.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/futura_pt_cond_book_oblique.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/futura_pt_cond_book_oblique.svg#futura_pt_cond_book_oblique') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Futura PT Cond Extra Bold';
+  src: url('../fonts/futura_pt_cond_extra_bold.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/futura_pt_cond_extra_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/futura_pt_cond_extra_bold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/futura_pt_cond_extra_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/futura_pt_cond_extra_bold.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/futura_pt_cond_extra_bold.svg#futura_pt_cond_extra_bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Futura PT Cond Extra Bold Oblique';
+  src: url('../fonts/futura_pt_cond_extra_bold_oblique.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/futura_pt_cond_extra_bold_oblique.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/futura_pt_cond_extra_bold_oblique.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/futura_pt_cond_extra_bold_oblique.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/futura_pt_cond_extra_bold_oblique.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/futura_pt_cond_extra_bold_oblique.svg#futura_pt_cond_extra_bold_oblique') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Futura PT Cond Medium';
+  src: url('../fonts/futura_pt_cond_medium.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/futura_pt_cond_medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/futura_pt_cond_medium.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/futura_pt_cond_medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/futura_pt_cond_medium.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/futura_pt_cond_medium.svg#futura_pt_cond_medium') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Futura PT Cond Medium Oblique';
+  src: url('../fonts/futura_pt_cond_medium_oblique.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/futura_pt_cond_medium_oblique.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/futura_pt_cond_medium_oblique.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/futura_pt_cond_medium_oblique.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/futura_pt_cond_medium_oblique.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/futura_pt_cond_medium_oblique.svg#futura_pt_cond_medium_oblique') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Futura PT Demi';
+  src: url('../fonts/futura_pt_demi.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/futura_pt_demi.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/futura_pt_demi.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/futura_pt_demi.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/futura_pt_demi.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/futura_pt_demi.svg#futura_pt_demi') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Futura PT Demi Oblique';
+  src: url('../fonts/futura_pt_demi_oblique.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/futura_pt_demi_oblique.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/futura_pt_demi_oblique.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/futura_pt_demi_oblique.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/futura_pt_demi_oblique.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/futura_pt_demi_oblique.svg#futura_pt_demi_oblique') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Futura PT Extra Bold';
+  src: url('../fonts/futura_pt_extra_bold.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/futura_pt_extra_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/futura_pt_extra_bold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/futura_pt_extra_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/futura_pt_extra_bold.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/futura_pt_extra_bold.svg#futura_pt_extra_bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Futura PT Extra Bold Oblique';
+  src: url('../fonts/futura_pt_extra_bold_oblique.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/futura_pt_extra_bold_oblique.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/futura_pt_extra_bold_oblique.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/futura_pt_extra_bold_oblique.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/futura_pt_extra_bold_oblique.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/futura_pt_extra_bold_oblique.svg#futura_pt_extra_bold_oblique') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Futura PT Heavy';
+  src: url('../fonts/futura_pt_heavy.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/futura_pt_heavy.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/futura_pt_heavy.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/futura_pt_heavy.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/futura_pt_heavy.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/futura_pt_heavy.svg#futura_pt_heavy') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Futura PT Heavy Oblique';
+  src: url('../fonts/futura_pt_heavy_oblique.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/futura_pt_heavy_oblique.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/futura_pt_heavy_oblique.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/futura_pt_heavy_oblique.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/futura_pt_heavy_oblique.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/futura_pt_heavy_oblique.svg#futura_pt_heavy_oblique') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Futura PT Light';
+  src: url('../fonts/futura_pt_light.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/futura_pt_light.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/futura_pt_light.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/futura_pt_light.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/futura_pt_light.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/futura_pt_light.svg#futura_pt_light') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Futura PT Light Oblique';
+  src: url('../fonts/futura_pt_light_oblique.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/futura_pt_light_oblique.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/futura_pt_light_oblique.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/futura_pt_light_oblique.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/futura_pt_light_oblique.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/futura_pt_light_oblique.svg#futura_pt_light_oblique') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Futura PT Medium';
+  src: url('../fonts/futura_pt_medium.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/futura_pt_medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/futura_pt_medium.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/futura_pt_medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/futura_pt_medium.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/futura_pt_medium.svg#futura_pt_medium') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Futura PT Medium Oblique';
+  src: url('../fonts/futura_pt_medium_oblique.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/futura_pt_medium_oblique.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../fonts/futura_pt_medium_oblique.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/futura_pt_medium_oblique.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../fonts/futura_pt_medium_oblique.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/futura_pt_medium_oblique.svg#futura_pt_medium_oblique') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+
+}
+
+body {
+  color: #fff;
+  background: #1E1D1F;
+  font-family: Futura PT Light;
+  font-size: 16px;
+  font-style: normal;
+}
+
+a {color: #fff;}
+a:hover {color: #fff;}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.clear {clear:both;}
+
+
+button {
+  border:none;
+  background: none;
+  box-shadow: unset;
+  
+}
+
+button:focus {
+  outline: none;
+  box-shadow: unset;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+header {
+  padding: 0;
+  background: #;
+}
+
+.container {
+    width: 100%;
+    max-width:100%;
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.left__colum {
+    width: 320px;
+    background: #181719;
+    padding: 60px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 48px;
+    min-height: 700px;
+}
+
+.logo__bl {
+    margin-bottom: 65px;
+}
+
+.nav__menu ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    font-variant-numeric: lining-nums proportional-nums;
+    margin-bottom: 24px;
+    display: flex;
+}
+
+.nav__menu ul li a:hover {
+    color:#514E54;
+}
+
+.container.is {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.right__colum {
+    width: 80%;
+}
+
+a.phone__bl {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #C2C2C2;
+    line-height: 28px;
+    margin-bottom: 24px;
+    display: flex;
+}
+
+a.mail__bl {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: #C2C2C2;
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.home__bl {margin-bottom: 42px;}
+
+.foot__bl {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #C2C2C2;
+    line-height: 28px;
+    margin-bottom: 24px;
+}
+
+.soc__wrap a {
+    margin-right: 12px;
+}
+
+.soc__wrap a:last-child {
+    margin-right: 0;
+}
+
+h1.tit__main {
+    font-family: Futura PT Bold;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+/*--------------------------------*/
+
+
+.slid__tit {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 58px;
+    font-family: 'Futura PT Bold';
+    margin-bottom: 24px;
+}
+
+.slid__in {
+    position: relative;
+    margin: 0 20px 0 0;
+}
+
+.slid__text {
+    position: absolute;
+    left: 24px;
+    bottom: 32px;
+}
+
+.slid__tits {
+    font-family: 'Futura PT Cond Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 58px; /* 322.222% */
+    text-transform: uppercase;
+}
+
+span.amaun__tit {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: #C2C2C2;
+    margin-right: 1px;
+}
+
+span.amaun__text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.slid__in.slick-slide .slid__img img{width: 358px;}
+
+.slid__in.slick-slide.slick-current.slick-active .slid__img img{width: 610px;height: auto;}
+
+.slid__wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.slid__bl {
+    width: 72%;
+    position: relative;
+}
+
+.balanse__tit {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 58px;
+    font-family: 'Futura PT Bold';
+    margin-bottom: 24px;
+}
+
+
+.balanse__bl {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 27px 24px 21px;
+    background: #222123;
+    align-items: center;
+    width: auto;
+}
+
+.balanse__tits {
+    font-size: 16px;
+    font-style: normal;
+    line-height: 28px;
+    color: #514E54;
+}
+
+.balanse__text {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 58px;
+    font-family: 'Futura PT Bold';
+    color: #FFD602;
+}
+
+.balanse__wrap {
+    margin-top: -290px;
+    margin-left: 633px;
+}
+
+.slid__right__history {
+    margin: 0 0 0 20px;
+    width: 26%;
+}
+
+.history__tit__wrap {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 28px;
+    color: #C2C2C2;
+    border-bottom: 1px solid;
+    margin-bottom: 16px;
+    padding: 0 12px;
+}
+
+
+.history__in {
+    display: flex;
+    justify-content: space-between;
+    background: #222123;
+    margin-bottom: 8px;
+    padding: 16px;
+}
+
+.date__tit {
+    font-size: 16px;
+    font-style: normal;
+    line-height: 28px;
+}
+
+.history__text {
+    font-size: 16px;
+    font-style: normal;
+    line-height: 28px;
+    color: #FFD602;
+}
+
+button.history__but {
+    background: #222123;
+    width: 100%;
+    height: 48px;
+}
+
+button.slick-next.slick-arrow{
+    right: -25px;
+    top: 28%;
+    background: url(../images/arrow.svg)left top no-repeat;
+    width: 44px;
+    height: 44px;
+}
+
+
+/*BURGER*/
+
+.burger {
+  display: block;
+  cursor: pointer;
+  z-index: 12;
+  position: relative;
+}
+.burger i:nth-of-type(1) {
+  display: block;
+}
+.burger i:nth-of-type(2) {
+  display: none;
+}
+.burger.burger-open i:nth-of-type(1) {
+  display: none;
+}
+.burger.burger-open i:nth-of-type(2) {
+  display: block;
+}
+
+.body-open  {
+  overflow: hidden;
+}
+
+.heder__mob {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.mt-mobile {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: 0.3s ease all;
+    clip-path: circle(100%);
+    padding: 108px 21px 20px;
+    color: #fff;
+    z-index: 9;
+    background: #181719;
+}
+
+.mt-mobile.nav-open {
+    clip-path: circle(0px at 100% 0px);
+}
+
+i.rig__bur {
+    margin: 0 0 0 200px;
+}
+
+.heder__mob {
+    display: none;
+}
+
+/*---------------------------*/
+
+.slick-slides {
+    position: relative;
+    width: 150px;
+    margin-right: 8px;
+}
+
+.iss {
+    display: flex;
+}
+
+.slid__mob {
+    position: relative;
+}
+
+.slick-slider {
+    margin-bottom: 10px!important;
+}
+
+.cart-galler-bl {
+    display: none;
+}
+
+.slick-slides {
+    opacity: 0.1;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.slid__tit.mob {
+    display: none;
+}
+
+.paym__tits {
+    font-variant-numeric: lining-nums proportional-nums;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 28px;
+    margin-bottom: 24px;
+}
+
+.paym__is {
+    display: flex;
+    background: #222123;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 8px;
+}
+
+.paym__but__bl {
+    text-align: center;
+}
+
+.paym__but__tit {
+    font-family: Futura PT Medium;
+    color: #C2C2C2;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+button.paym__but {
+    padding: 8px 16px;
+    background: #1E1D1F;
+    color: #C2C2C2;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+.slid__right__history.is {
+    width: 50%;
+}
+
+.paym__wrap {
+    width: 47%;
+}
+
+button.payn__but {
+    background: #181719;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 28px;
+    width: 20%;
+    cursor: pointer;
+}
+
+
+/*-------------------------*/
+
+
+.modul-1 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+    display: none;
+    padding: 30px 0;
+    background: #00000073;
+}
+
+.modul-2 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+    display: none;
+    padding: 30px 0;
+    background: #00000073;
+}
+
+
+.modal-is {
+    position: relative;
+    margin: 0 auto;
+    width: 75%;
+    padding: 40px;
+    background: #1E1D1F;
+}
+
+.modul__tit {
+    color: #FFF;
+    font-family: 'Futura PT Medium';
+    font-size: 18px;
+    font-style: normal;
+    line-height: 58px;
+    text-transform: uppercase;
+}
+
+.left__modul {
+    color: #C2C2C2;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 28px;
+    width: 50%;
+    margin-right: 24px;
+}
+
+.modul__wrap {
+    display: flex;
+    margin-bottom: 34px;
+    flex-wrap: wrap;
+}
+
+.modul__text__tit {
+    margin-bottom: 8px;
+}
+
+ul.modul__list {
+    list-style: disc;
+    color: #FFF;
+    margin-bottom: 8px;
+}
+
+.left__modul p {
+    margin: 0;
+}
+
+.right__modul {
+    width: 47%;
+    display: flex;
+    justify-content: center;
+    padding: 16px 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #222123;
+    color: #FFD602;
+    font-size: 30px;
+    font-style: normal;
+    line-height: 58px;
+    font-family: 'Futura PT Bold';
+}
+
+.right__tits {
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+form.madal-form {
+    width: 100%;
+}
+
+form.madal-form input{
+    width: 100%;
+    margin-bottom: 8px;
+    background: transparent;
+    outline: none;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 1px solid #514E54;
+    padding: 16px;
+    color: #514E54;
+}
+
+form.madal-form input::placeholder{
+    color:#514E54;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 28px;
+}
+
+button.form__but {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 32px auto 0;
+    padding: 10px 24px;
+    border: 1px solid #C2C2C2;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+.close {
+    margin: 10px auto 0;
+    text-align: center;
+    color: #C2C2C2;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+/*---------------------------*/
+
+.form-radio span.label-wrap input {
+  appearance: none;
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  transition: 0.2s all linear;
+  outline: none;
+  margin-right: 12px;
+  position: relative;
+  top: 1px;
+  border: 1px solid #514E54;
+  background: #fff;
+}
+
+.form-radio span.label-wrap input:checked {
+  background: #FFD602;
+  position: relative;
+}
+
+.form-radio span.label-wrap input:checked:before {
+    position: absolute;
+    left: 11px;
+    top: 11px;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 100%;
+}
+
+span.label-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.form-radio {
+    display: flex;
+}
+
+span.label-wrap label {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 28px;
+}
+
+.radio__tit {
+    font-size: 16px;
+    font-style: normal;
+    line-height: 28px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+form.madal-form.is {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 68px;
+    flex-wrap: wrap;
+}
+
+.form__in.is {
+    width: 47%;
+}
+
+.form__bl {
+    width: 50%;
+}
+
+button.form__but.is {
+    text-align: right;
+    margin: 0 0 10px;
+}
+
+.close.is {
+    margin: 0;
+    text-align: center;
+    width: 145px;
+}
+
+footer {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

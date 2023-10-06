@@ -1,0 +1,289 @@
+
+@media screen and (max-width: 1900px) {
+
+.slid__in.slick-slide.slick-current.slick-active .slid__img img {
+    width: auto;
+    height: 388px;
+}
+
+.slid__in.slick-slide .slid__img img {
+    width: 205px;
+    height: auto;
+}
+
+.balanse__wrap {
+    margin-top: -204px;
+    margin-left: 413px;
+}
+
+.right__colum {
+    width: 76%;
+}
+
+.left__colum {
+    width: 20%;
+    background: #181719;
+    padding: 60px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 48px;
+    min-height: 700px;
+}   
+
+
+.slid__bl {
+    width: 70%;
+    position: relative;
+}
+
+}
+
+
+
+@media screen and (max-width: 1280px) {
+
+.history__in.is {
+    display: none;
+}
+
+.balanse__bl {
+    padding: 22px 14px 22px 13px;
+}
+
+.balanse__tit {
+    margin-bottom: 8px;
+}
+
+.left__colum {
+    width: 20%;
+    background: #181719;
+    padding: 60px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 34px;
+    min-height: 700px;
+}
+
+}
+
+
+/* стили для md-устройств */
+@media screen and (max-width: 1200px) {
+
+.left__modul {
+    width: 100%;
+    margin-bottom: 24px;
+    margin-right: 0;
+}
+
+.right__modul {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 100%;
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 0 0px;
+}
+
+.left__colum {
+    width: 20%;
+    background: #181719;
+    padding: 60px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 34px;
+    min-height: 700px;
+}
+
+}
+
+
+/* стили для sm-устройств */
+@media screen and (max-width: 1024px) {
+
+.balanse__wrap {
+    margin-top: -71px;
+    margin-left: 0;
+}
+
+  
+}
+
+/* стили для sm-устройств */
+@media screen and (max-width: 992px) {
+
+  
+}
+
+@media screen and (max-width: 968px) {
+
+button.payn__but {
+    width: 30%;
+}
+
+.paym__img__right {
+    width: 20%;
+}
+
+.paym__img {
+    width: 25%;
+}
+
+.left__colum {
+    display: none;
+}
+
+.right__colum {
+    width: 100%;
+}
+
+.container {
+    padding: 0 10px;
+}
+
+.heder__mob {
+    display:flex;
+    background: #181719;
+    align-items: center;
+}
+
+.logo__bl.is {
+    margin-bottom: 0;
+}    
+
+}
+
+
+/* Ipad*/ 
+@media screen and (max-width: 768px) {
+
+.close.is {
+    margin: 0 auto;
+    text-align: center;
+    width: 145px;
+}
+
+.form__bl {
+    width: 100%;
+}
+
+.form__in.is {
+    width: 100%;
+}
+
+.form__bl {
+    margin-bottom: 22px;
+}
+
+button.form__but.is {
+    width: 100%;
+}
+
+.paym__wrap {
+    width: 100%;
+}
+
+.slid__right__history.is {
+    width: 100%;
+    margin: 0;
+}
+
+.balanse__wrap {
+    margin-top: -170px;
+    margin-left: 362px;
+}
+
+.slid__bl {
+    width: 100%;
+}
+
+.slid__right__history {
+    width: 100%;
+}
+
+.slid__in.slick-slide.slick-current.slick-active .slid__img img {
+    width: 354px;
+    height: auto;
+}
+
+.logo__wrap {
+    margin-bottom: 60px;
+}
+
+}
+
+
+/* Ipad mini*/ 
+@media screen and (max-width: 660px) {
+
+.slick-slide img {
+    text-align: center!important;
+    margin: 0 auto!important;
+    width: 100%!important;
+}
+
+.slid__is.responsives-is.slick-initialized.slick-slider {
+    display: none;
+}
+
+.balanse__wrap {
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.slick-slides {
+    position: relative;
+    width: 150px;
+    margin-right: 10px;
+}
+
+.cart-galler-bl {
+    display: block;
+    width: 100%;
+}
+
+.slid__tit {
+    display: none;
+}
+
+.slid__tit.mob {
+    display: block;
+}
+
+.slid__right__history {
+    margin: 0;
+}
+
+}
+
+/* Galaxy S8+*/ 
+@media screen and (max-width: 480px) {
+
+.modal-is {
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    padding: 24px;
+    background: #1E1D1F;
+}
+  
+}
+
+/* Galaxy*/ 
+@media screen and (max-width: 415px) {
+  
+}
+
+
+/* Iphone 6.7.8 */ 
+@media screen and (max-width: 375px) {
+
+}
+
+/* Iphone 5.5SE */ 
+@media screen and (max-width: 320px) {
+
+}
