@@ -180,19 +180,13 @@ button.close {
     position: absolute;
     right: 8px;
     top: 5px;
-    background: #000000d6;
+    background: url(../images/close.png)left top no-repeat;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 25px;
     height: 25px;
-    line-height: 20px;
-    transform: rotate(314deg);
-    font-size: 25px;
-    border-radius: 100%;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
 }
 
 li.tab-link {
