@@ -118,6 +118,28 @@
 
 /* Galaxy*/ 
 @media screen and (max-width: 415px) {
+
+h2.cat__burg {
+    font-size: 20px;
+}
+
+section.cat__sec {
+    margin-bottom: 20px;
+}
+
+body {
+    font-size: 16px;
+}
+
+.biznes__tit br {
+    display: none;
+}
+
+.manufs__text p {
+    font-size: 16px;
+    line-height: 33px;
+    margin-bottom: 10px;
+}
   
 }
 
