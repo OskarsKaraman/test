@@ -191,6 +191,8 @@ button.close {
     transform: rotate(314deg);
     font-size: 25px;
     border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
 }
 
 li.tab-link {
