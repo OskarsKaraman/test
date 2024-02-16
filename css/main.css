@@ -185,8 +185,9 @@ button.close {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
 }
 
 li.tab-link {
@@ -342,21 +343,3 @@ section.sezon_sec {
 footer {
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
