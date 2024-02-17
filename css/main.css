@@ -251,7 +251,7 @@ section.cat__sec {
 
 .sezon__prise__is {
     font-family: 'OpenSans-Bold';
-    font-size: 25px;
+    font-size: 24px;
     line-height: 40px;
     color: #000;
 }
@@ -338,6 +338,11 @@ section.sezon_sec {
     font-size: 19px;
     line-height: 39px;
     margin-bottom: 15px;
+}
+
+.sezon__prise__is span {
+    font-size: 17px;
+    font-family: 'OpenSans-Regular';
 }
 
 footer {
